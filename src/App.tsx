@@ -26,15 +26,15 @@ const projectsData: Project[] = [
     //demoLink: "https://real-eastate-web.pages.dev/",
     //githubLink: "https://github.com/ysukkar2?tab=repositories",
     images: ["public/images/12.jpeg",
-        "public/images/13.jpeg",
-        "public/images/14.jpeg",
-        "public/images/15.jpeg",
-        "public/images/16.jpeg",
-        "public/images/17.jpeg",
-        "public/images/18.jpeg",
-        "public/images/19.jpeg",
-        "public/images/20.jpeg",
-        "public/images/21.png",
+        "/images/13.jpeg",
+        "/images/14.jpeg",
+        "/images/15.jpeg",
+        "/images/16.jpeg",
+        "/images/17.jpeg",
+        "/images/18.jpeg",
+        "/images/19.jpeg",
+        "/images/20.jpeg",
+        "/images/21.png",
     ] // تأكد أن هذه الصورة موجودة في public/images
   },
   {
@@ -44,7 +44,7 @@ const projectsData: Project[] = [
     techStack: ["Reactjs", "CSS/Vite"],
     demoLink: "https://real-eastate-web.pages.dev/",
     //githubLink: "https://github.com/ysukkar2?tab=repositories",
-    images: [ "public/images/real.png"]
+    images: [ "/images/real.png"]
   },
 
 
@@ -57,12 +57,12 @@ const projectsData: Project[] = [
     techStack: ["ReactNative", "TypeScript/Expo"],
     demoLink: "https://play.google.com/store/apps/details?id=com.yazan.lirti",
     
-    images: ["public/images/1.jpeg", "public/images/2.jpeg",
-    "public/images/3.jpeg","public/images/4.jpeg",
-    "public/images/5.jpeg","public/images/6.jpeg",
-    "public/images/7.jpeg","public/images/8.jpeg",
-    "public/images/9.jpeg","public/images/10.jpeg",
-    "public/images/11.jpeg"
+    images: ["/images/1.jpeg", "/images/2.jpeg",
+    "/images/3.jpeg","/images/4.jpeg",
+    "/images/5.jpeg","/images/6.jpeg",
+    "/images/7.jpeg","/images/8.jpeg",
+    "/images/9.jpeg","/images/10.jpeg",
+    "/images/11.jpeg"
 
     ]
   }
