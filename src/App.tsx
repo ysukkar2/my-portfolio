@@ -25,7 +25,7 @@ const projectsData: Project[] = [
     techStack: ["Flutter", "Nestjs", "PostgreSQL" , "Admin Dashboard Flutter"],
     //demoLink: "https://real-eastate-web.pages.dev/",
     //githubLink: "https://github.com/ysukkar2?tab=repositories",
-    images: ["public/images/12.jpeg",
+    images: ["/images/12.jpeg",
         "/images/13.jpeg",
         "/images/14.jpeg",
         "/images/15.jpeg",
