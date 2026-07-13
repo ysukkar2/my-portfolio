@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "Real Estate Platform",
+    "description": "A comprehensive real estate web application featuring property listings and advanced search.",
+    "techStack": ["React", "TypeScript", "Tailwind"],
+    "demoLink": "https://real-eastate-web.pages.dev/",
+    "githubLink": "https://github.com/ysukkar2?tab=repositories",
+    "images": [
+      "/images/team.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Expense Tracker",
+    "description": "An intuitive financial management tool to track income and expenses effectively.",
+    "techStack": ["JavaScript", "HTML/CSS"],
+    "demoLink": "https://expense-tracker111111.netlify.app/",
+    "githubLink": "https://github.com/ysukkar2?tab=repositories",
+    "images": [
+      "/images/expense-1.png",
+      "/images/expense-2.png"
+    ]
+  }
+]
