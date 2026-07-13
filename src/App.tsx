@@ -170,7 +170,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
 </div> */}
 
 <div className="project-links">
-  {project.demoLink &&
+  {/* {project.demoLink &&
     (project.demoLink.includes("play.google.com") ? (
       <a
         href={project.demoLink}
@@ -200,7 +200,29 @@ const ProjectCard = ({ project }: { project: Project }) => {
     >
       🔗 View Code
     </a>
-  )}
+  )} */}
+
+{project?.demoLink && (
+  <a
+    href={project.demoLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className={`link-demo ${project.demoLink.includes("play.google.com") ? "google-play" : ""}`}
+  >
+    {project.demoLink.includes("play.google.com") ? "Google Play" : "🚀 Live Demo"}
+  </a>
+)}
+
+{project?.githubLink && (
+  <a
+    href={project.githubLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="link-github"
+  >
+    🔗 View Code
+  </a>
+)}
 
   {project.images.length > 0 && (
     <button
