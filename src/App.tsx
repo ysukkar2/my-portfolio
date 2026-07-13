@@ -356,7 +356,7 @@ const projectsData: Project[] = [
 
     techStack: ["ReactNative", "TypeScript/Expo"],
     demoLink: "https://play.google.com/store/apps/details?id=com.yazan.lirti",
-    
+    githubLink: undefined, 
     images: ["/images/1.jpeg", "/images/2.jpeg",
     "/images/3.jpeg","/images/4.jpeg",
     "/images/5.jpeg","/images/6.jpeg",
