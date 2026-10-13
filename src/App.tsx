@@ -438,6 +438,7 @@ const BASE_PATH = import.meta.env.BASE_URL;
 // بيانات المشاريع مباشرة هنا
 const projectsData: Project[] = [
   {
+
     id: 1,
     title: "MatchPulse",
     description: "A Sports App.",
@@ -499,6 +500,58 @@ const projectsData: Project[] = [
       `${BASE_PATH}images/10.jpeg`, 
       `${BASE_PATH}images/11.jpeg`
   ]
+  },
+  {
+    id:4,
+    title: "Alaref RealEstate App",
+    description: "RealEstate App",
+    techStack: ["Flutter", "Nestjs", "PostgreSQL", "Admin Dashboard Flutter"],
+    images:[
+       `${BASE_PATH}images/alaref/22.jpeg`,
+       `${BASE_PATH}images/alaref/23.jpeg`, 
+       `${BASE_PATH}images/alaref/24.jpeg`, 
+       `${BASE_PATH}images/alaref/25.jpeg`, 
+       `${BASE_PATH}images/alaref/26.jpeg`, 
+       `${BASE_PATH}images/alaref/27.jpeg`, 
+       `${BASE_PATH}images/alaref/28.jpeg`, 
+       `${BASE_PATH}images/alaref/29.jpeg`, 
+       `${BASE_PATH}images/alaref/30.jpeg`, 
+       `${BASE_PATH}images/alaref/31.jpeg`, 
+       `${BASE_PATH}images/alaref/32.jpeg`, 
+       `${BASE_PATH}images/alaref/33.jpeg`, 
+       `${BASE_PATH}images/alaref/34.jpeg`, 
+       `${BASE_PATH}images/alaref/35.jpeg`, 
+       `${BASE_PATH}images/alaref/36.jpeg`, 
+       `${BASE_PATH}images/alaref/37.jpeg`, 
+       `${BASE_PATH}images/alaref/38.jpeg`, 
+       `${BASE_PATH}images/alaref/39.jpeg`, 
+       `${BASE_PATH}images/alaref/40.jpeg`, 
+       `${BASE_PATH}images/alaref/41.jpeg`, 
+       `${BASE_PATH}images/alaref/42.jpeg`, 
+       `${BASE_PATH}images/alaref/43.jpeg`, 
+       `${BASE_PATH}images/alaref/44.jpeg`, 
+       `${BASE_PATH}images/alaref/45.jpeg`, 
+       `${BASE_PATH}images/alaref/46.jpeg`, 
+       `${BASE_PATH}images/alaref/47.jpeg`, 
+       `${BASE_PATH}images/alaref/48.jpeg`, 
+       `${BASE_PATH}images/alaref/49.jpeg`, 
+       `${BASE_PATH}images/alaref/50.jpeg`, 
+       `${BASE_PATH}images/alaref/51.jpeg`, 
+       `${BASE_PATH}images/alaref/52.jpeg`, 
+       `${BASE_PATH}images/alaref/53.jpeg`, 
+       `${BASE_PATH}images/alaref/54.jpeg`, 
+       `${BASE_PATH}images/alaref/55.jpeg`, 
+       `${BASE_PATH}images/alaref/56.jpeg`, 
+       `${BASE_PATH}images/alaref/57.jpeg`, 
+       `${BASE_PATH}images/alaref/58.jpeg`, 
+       `${BASE_PATH}images/alaref/59.jpeg`, 
+       `${BASE_PATH}images/alaref/60.jpeg`, 
+       `${BASE_PATH}images/alaref/61.jpeg`, 
+       `${BASE_PATH}images/alaref/62.jpeg`, 
+       `${BASE_PATH}images/alaref/63.jpeg`, 
+       `${BASE_PATH}images/alaref/64.jpeg`, 
+        
+    ]
   }
 
 ];
